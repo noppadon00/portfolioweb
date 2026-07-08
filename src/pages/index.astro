@@ -1,7 +1,16 @@
 ---
 //fontmatter
+const title = "My Astro Site";
+const name = "Solah";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<h1>Welcome to {title}</h1>
+		<p>This is a simple Astro page {name}.</p>
+	</body>
+</html>
